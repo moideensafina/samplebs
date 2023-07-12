@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a href="/" class="navbar-brand">
+              <img
+                src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg"
+                width="30"
+                height="30"
+                alt="Bootstrap Tamil"
+                loading="lazy"
+                class="d-inline-block align-top"
+              />
+              Learn Bootstrap
+            </a>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#myNavBar"
+              aria-controls="myNavBar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="myNavBar">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/courses.html" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/blog.html" class="nav-link active">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/login.html" class="nav-link ">Login</a>
+                </li>
+  
+                <li class="nav-item me-2">
+                  <a href="/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="btn btn-danger bg-black shadow-none my-2 my-sm-0 ms-0 ms-sm-3 dropdown-toggle active"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Register
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/register.html">Member</a>
+                    <a class="dropdown-item" href="/tutorial-register.html">
+                      Tutorial request
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+
+
+      <div class="p-5 bg-light">
+        <div class="container">
+            <div class="">
+                <h5>CyberDude Blog</h5>
+                <p class="text-muted">
+                    Never miss any update from the cyberdude team. Stay connected with
+                    the updates.
+                </p>
+            </div>
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="/pages">Page</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+
+  <!--  <div class="container">
+
+        <div class="card my-4">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap Tamil"
+                        class="card-img h-100" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Bootstrap Course released! <span class="badge badge-success">New</span></h5>
+                        <p class="card-text">
+                            <span class="badge badge-pill badge-success"> <i class="fa fa-television"></i> Web
+                                Development</span>
+                            <span class="badge badge-pill bs-color"> <i class="fa fa-tags"></i> Bootstrap</span>
+
+                        </p>
+                        <p class="card-text">
+                            Learn to build responsive creative websites using bootstrap css
+                            framework. This course will have several topics explaining
+                            everything about bootstrap and it will help you to build
+                            websites in minutes <a href="#" class="card-link">read more...</a>
+                        </p>
+
+                        <div class="mb-5">
+                            <p class="card-text float-right">
+                                <small class="text-muted"> <i class="fa fa-clock-o"></i> Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+
+                        <button class="btn btn-success btn-block">
+                            <i class="fa fa-newspaper-o pr-2"></i> Read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card my-4">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap Tamil"
+                        class="card-img h-100" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Bootstrap Course released! <span class="badge badge-success">New</span></h5>
+                        <p class="card-text">
+                            <span class="badge badge-pill badge-success"> <i class="fa fa-television"></i> Web
+                                Development</span>
+                            <span class="badge badge-pill bs-color"> <i class="fa fa-tags"></i> Bootstrap</span>
+
+                        </p>
+                        <p class="card-text">
+                            Learn to build responsive creative websites using bootstrap css
+                            framework. This course will have several topics explaining
+                            everything about bootstrap and it will help you to build
+                            websites in minutes <a href="#" class="card-link">read more...</a>
+                        </p>
+
+                        <div class="mb-5">
+                            <p class="card-text float-right">
+                                <small class="text-muted"> <i class="fa fa-clock-o"></i> Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+
+                        <button class="btn btn-success btn-block">
+                            <i class="fa fa-newspaper-o pr-2"></i> Read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card my-4">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap Tamil"
+                        class="card-img h-100" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Bootstrap Course released! <span class="badge badge-success">New</span></h5>
+                        <p class="card-text">
+                            <span class="badge badge-pill badge-success"> <i class="fa fa-television"></i> Web
+                                Development</span>
+                            <span class="badge badge-pill bs-color"> <i class="fa fa-tags"></i> Bootstrap</span>
+
+                        </p>
+                        <p class="card-text">
+                            Learn to build responsive creative websites using bootstrap css
+                            framework. This course will have several topics explaining
+                            everything about bootstrap and it will help you to build
+                            websites in minutes <a href="#" class="card-link">read more...</a>
+                        </p>
+
+                        <div class="mb-5">
+                            <p class="card-text float-right">
+                                <small class="text-muted"> <i class="fa fa-clock-o"></i> Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+
+                        <button class="btn btn-success btn-block">
+                            <i class="fa fa-newspaper-o pr-2"></i> Read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <!-- List Group -->
+            <!--
+            <ul class="list-group">
+                <li class="list-group-item bg-success text-center text-white">Categories</li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Bootstrap
+                    <span class="badge badge-success badge-pill">5</span>
+                </li>
+                <li class="list-group-item">Web Design</li>
+                <li class="list-group-item">PHP</li>
+            </ul>
+            -->
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                    Categories
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Bootstrap
+                    <span class="badge bg-success badge-pill">5</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Web Design</a>
+                <a href="#" class="list-group-item list-group-item-action">PHP</a>
+              </div>
+        </div>
+        <div class="col-md-9 ">
+            <div class="card ">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png"
+                            alt="Bootstrap Tamil " class="card-img h-100" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Bootstrap Course released! 
+                                <span class="badge bg-danger">New</span></h5>
+                            <p class="card-text">
+                                <span class="badge rounded-pill bg-primary"> <i class="fa fa-television"></i> Web
+                                    Development</span>
+                                <span class="badge badge-pill bs-color"> <i class="fa fa-tags"></i> Bootstrap</span>
+
+                            </p>
+                            <p class="card-text">
+                                Learn to build responsive creative websites using bootstrap css
+                                framework. This course will have several topics explaining
+                                everything about bootstrap and it will help you to build
+                                websites in minutes <a href="#" class="card-link">read more...</a>
+                            </p>
+                            <div class="mb-5">
+                                <p class="card-text float-end">
+                                    <small class="text-muted"> <i class="fa fa-clock-o"></i> Last updated 3 mins
+                                        ago</small>
+                                </p>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-success btn-block">
+                                    <i class="fa fa-newspaper-o pe-2"></i> Read more
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-3">
+
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png"
+                            alt="Bootstrap Tamil " class="card-img h-100" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Bootstrap Course released! <span class="badge bg-danger">New</span></h5>
+                            <p class="card-text">
+                                <span class="badge rounded-pill bg-primary"> <i class="fa fa-television"></i> Web
+                                    Development</span>
+                                <span class="badge badge-pill bs-color"> <i class="fa fa-tags"></i> Bootstrap</span>
+
+                            </p>
+                            <p class="card-text">
+                                Learn to build responsive creative websites using bootstrap css
+                                framework. This course will have several topics explaining
+                                everything about bootstrap and it will help you to build
+                                websites in minutes <a href="#" class="card-link">read more...</a>
+                            </p>
+                            <div class="mb-5">
+                                <p class="card-text float-end">
+                                    <small class="text-muted"> <i class="fa fa-clock-o"></i> Last updated 3 mins
+                                        ago</small>
+                                </p>
+                            </div>
+
+                            <div class="d-grid">
+                                <button class="btn btn-success btn-block">
+                                    <i class="fa fa-newspaper-o pe-2"></i> Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+      <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+  </body>
+</html>
